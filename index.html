@@ -3,11 +3,20 @@
     <head>
         <meta charset="utf-8">
         <title>Γεια σου κόσμε!</title>
+		  <script type="text/javascript">
+			function clickMe()
+			{	
+				document.getElementById("js").innerHTML="<h1>ΝΑΙNΑΙNΑΙNΑΙNΑΙNΑΙ</h1><iframe width=\"560\" height=\"315\" src=\"http://www.youtube.com/embed/9bZkp7q19f0\" frameborder=\"0\" allowfullscreen></iframe><br> <i>By pcmagas :p</i>";
+			}
+		  </script>
     </head>
     <body>
         <h1>Γεια σου κόσμε</h1>
         <p>
-            Ο Σίμος ήταν εδώ.
+            Ο Σίμος ήταν εδώ.<br>
+				<button onclick="clickMe()">Κάνε κλικ αν χαίρεσε που έφυγε</button>
         </p>
+		  <p id="js">
+		 </p>
     </body>
 </html>
